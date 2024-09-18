@@ -1,0 +1,70 @@
+.home-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .video-container {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background-color: black;
+  }
+  
+  .config-panel {
+    margin-left: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+  }
+  
+  .add-text-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .config-options {
+    margin-top: 20px;
+  }
+  
+  h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="color"],
+  select {
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+    font-family: Arial, sans-serif;
+  }
+  
+  label {
+    font-size: 14px;
+  }
+  
+  .delete-btn {
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
